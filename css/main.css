@@ -1,0 +1,32 @@
+/* Padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #ff6600;
+  --color-second: #45322e;
+  --color-black: #222;
+  --color-white: #fff;
+}
+
+body {
+  background-color: var(--color-second);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14pt;
+  color: var(--color-black);
+}
+
+a {
+  color: var(--color-black);
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  min-width: 320px;
+  max-width: 1280px;
+  margin: auto;
+}
